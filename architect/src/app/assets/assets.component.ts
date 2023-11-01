@@ -2,11 +2,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
   selector: 'app-assets',
-  template: `
-    <p>
-      assets works!
-    </p>
-  `,
+  templateUrl: './assets.component.html',
   styleUrls: ['./assets.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
