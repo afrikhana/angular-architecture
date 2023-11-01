@@ -9,6 +9,7 @@ import { FeaturesComponent } from './home/features/features.component';
 import { ClientComponent } from './client/client.component';
 import { AssetsComponent } from './assets/assets.component';
 import { SharedComponent } from './shared/shared.component';
+import { UiComponent } from './home/ui/ui.component';
 
 @NgModule({
   declarations: [	
@@ -18,7 +19,8 @@ import { SharedComponent } from './shared/shared.component';
       FeaturesComponent,
       ClientComponent,
       AssetsComponent,
-      SharedComponent
+      SharedComponent,
+      UiComponent
    ],
   imports: [
     BrowserModule,
